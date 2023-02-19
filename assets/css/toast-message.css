@@ -1,0 +1,196 @@
+/* Css toast message */
+.toast {
+    align-items: center;
+    background: #fff;
+    border-radius: 2px;
+    padding: 20px 0;
+    min-width: 400px;
+    max-width: 450px;
+    border-left: 4px solid;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+    transition: all linear 0.5s;
+    position: relative;
+}
+
+.toast__private {
+    display: flex;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0.2;
+        transform: translateX(calc(100% + 32px));
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+#toast {
+    position: fixed;
+    top: 32px;
+    right: 32px;
+    z-index: 100;
+}
+
+.toast+.toast {
+    margin-top: 24px;
+}
+
+.toast__icon {
+    font-size: 24px;
+}
+
+.toast__icon,
+.toast__close {
+    padding: 0 16px;
+    line-height: 52px;
+}
+
+.toast__body {
+    flex-grow: 1;
+}
+
+.toast__title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.toast__msg {
+    font-size: 14px;
+    color: #888;
+    margin-top: 6px;
+    line-height: 1.5;
+}
+
+.toast__close {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+
+.toast--success {
+    border-color: #47d864;
+}
+
+.toast--success .toast__icon {
+    color: #47d864;
+}
+
+.toast--info {
+    border-color: #2f86eb;
+}
+
+.toast--info .toast__icon {
+    color: #2f86eb;
+}
+
+.toast--warning {
+    border-color: #ffc021;
+}
+
+.toast--warning .toast__icon {
+    color: #ffc021;
+}
+
+.toast--error {
+    border-color: #ff6243;
+}
+
+.toast--error .toast__icon {
+    color: #ff6243;
+}
+
+.toast__background {
+    height: 4px;
+    background-color: #47d864;
+    animation: background_time 3s linear;
+    position: absolute;
+    bottom: 0;
+}
+
+@keyframes background_time {
+    0% {
+        width: 100%;
+    }
+
+    10% {
+        width: 90%;
+    }
+
+    20% {
+        width: 80%;
+    }
+
+    30% {
+        width: 70%;
+    }
+
+    40% {
+        width: 60%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    60% {
+        width: 40%;
+    }
+
+    70% {
+        width: 30%;
+    }
+
+    80% {
+        width: 20%;
+    }
+
+    90% {
+        width: 10%;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+
+/* Btn */
+.btn {
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.btn--success {
+    background-color: #47d864;
+}
+
+.btn--error {
+    background-color: #ff6243;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+@media (max-width: 575.98px){
+    .toast {
+        min-width: 300px;
+        max-width: 350px;
+    }
+}

@@ -1,0 +1,254 @@
+@media (max-width: 991.98px) {
+    .col-product {
+        width: 33.33%;
+    }
+
+    .card-image {
+        height: 170px;
+    }
+
+    .header-middle-center {
+        padding: 0;
+    }
+
+    .footer-top-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-top-img{
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    .footer-top-subs-text{
+        display: none;
+    }
+
+    .widget-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+
+    .widget-row-col-1 {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .widget-row-col {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+
+    .home-service-item{
+        width: 50%;
+    }
+}
+
+@media (max-width: 827px) {
+    .advanced-search-price input{
+        width: 70px;
+    }
+}
+
+@media (max-width: 785px) {
+    .header-middle-right-item>span,.auth-container{
+        display: none;
+    }
+
+    .advanced-search .container{
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
+
+    .advanced-search-price input {
+        width: 120px;
+    }
+
+    .advanced-search-price{
+        order: 3;
+    }
+
+    .advanced-search {
+        transform: translateY(-100%);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header-middle-center{
+        display: none;
+    }
+    
+    .header-middle-right-item.dnone{
+        display: block!important;
+    }
+
+    .home-slider {
+        padding: 0 10px;
+    }
+
+
+    .home-service-item{
+        width: 90%;
+    }
+
+    .home-title {
+        font-size: 19px;
+    }
+
+    .col-product {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .card-product {
+        display: flex;
+        border: none;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .card-header {
+        width: 45%;
+        object-fit: cover;
+        height: 110px;
+    }
+
+    .card-image {
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .card-button{
+        width: 100%;
+        padding: 7px 20px
+    }
+
+    .product-image {
+        max-height: 255px;
+    }
+
+    .food-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .product-buy {
+        justify-content: flex-start;
+    }
+
+    .modal-container {
+        height: 100vh !important;
+        max-height: 100vh !important;
+    }
+
+    .modal-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .modal-close {
+        z-index: 100;
+        height: 30px;
+        width: 30px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .modal-cart {
+        align-items: flex-end;
+    }
+
+    .cart-container {
+        width: 100vw;
+        right: 0;
+        bottom: 0;
+        height: 80vh;
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        transform: translateY(100%);
+    }
+
+    .footer-top {
+        padding: 30px 0;
+    }
+
+    .footer-top-img {
+        display: none;
+    }
+
+    .footer-top-subbox {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .form-ground {
+        display: flex;
+        margin-left: 0;
+    }
+
+    .footer-top-subs {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .main-account-body-col{
+        width: 100%;
+    }
+
+    .checkout-section{
+        flex-wrap: wrap;
+        padding: 5px 8px 0
+    }
+
+    .checkout-section>div{
+        width: 100%;
+    }
+
+    .main-account{
+        width: 97%;
+    }
+
+    .main-account{
+        padding: 10px;
+    }
+
+    .order-history-control,.order-history {
+        row-gap: 20px;
+        flex-direction: column;
+    }
+
+    .order-history-right{
+        position: absolute;
+        left: 110px;
+        bottom: 0;
+    }
+
+    .order-history-price{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .order-history-old-price{
+        margin-right: 10px;
+    }
+
+    .order-history-total{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .order-history-toltal-price{
+        font-size: 20px;
+    }
+}

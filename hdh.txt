@@ -1,0 +1,52 @@
+* Chương 1
+ - Hệ điều hành là gì ?
+   Chương trình trung gian giữa phần cứng máy tính và người sử dụng, có chức năng điều khiển và phối hợp việc sử dụng phần cứng
+   và cung cấp các dịch vụ cơ bản cho các ứng dụng
+ - System call
+ -
+* Chương 2
+
+ - Khái niệm tiến trình ? 
+   Tiến trình là chương trình đang thực hiện
+ - Trạng thái của tiến trình
+   New: Tiến trình được khởi tạo
+   Ready: Tiến trình sẵn sàng chờ processor gọi thực hiện
+   Running: Tiến trình thực thi
+   Waitting: Tiến trình chờ đợi thực hiện sự kiện nào đó
+   Terminated: Tiến trình kết thúc
+ - khái niệm luồng:
+ - các mô hình luồng(1/1, n/n, n/1)
+ - các hàm pthread
+ - CPU Scheduling (các tiêu chuẩn điều phối.)
+    + Round Robin
+    + SJF (n/np)
+    + FCFS
+ - Đồng bộ hóa
+    + Critical Section
+    + Vấn đề đồng bộ, ý tưởng thực hiện
+    + Hiểu Semaphore 
+
+ - Deadlock
+    + Deadlock là gì ?
+      Deadlock là trạng thái trong hệ thống có ít nhất 2 tiến trình đứng chờ lẫn nhau và chúng không thể thực hiện tiếp được
+      Sự chờ đợi này có thể kéo dài vô hạn nếu không được can thiệp từ bên ngoài 
+    + Điều kiện xảy ra Deadlock
+      Xảy ra đồng thời 4 điều kiện sau
+      Mutual exclusion
+      Hold and wait
+      No preemtion
+      Circular wait
+    + Đồ thị (2 dạng)
+    + Dùng thuật toán Banker (có hay không có deadlock)
+    + Các phương pháp ngăn chặn deadlock ?
+
+* Chương 3: Memory
+ - Vấn đề chuyển đổi địa chỉ
+ - Thế nào là cấp phát liên tục/ không liên tục
+ - Kỹ thuật phân trang 
+
+* Chương 4: Virtual Memory
+ - Thuật toán thay thế trang (FIFO, LRU, ?)
+
+* Chương 5: 
+ - Các giải thuật 
