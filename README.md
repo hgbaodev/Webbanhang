@@ -1,11 +1,13 @@
 # Đồ án môn lập trình web và ứng dụng
-### Demo
 ### Thành viên trong nhóm
 
 | STT |    MSSV    | Họ và tên         | Điểm  |
 | :-: | :--------: | :---------------: | :---: | 
 |  1  | 3121410422 | Trần Nhật Sinh    | 10    | 
 |  2  | 3121410069 | Hoàng Gia Bảo     | 10    |
+
+### Tài khoản: 0355374322
+### Mật khẩu : 123456
 ### Hình ảnh giao diện
 ![Alt text](./assets/img/screen.jpeg)
 <h4 align="center">Trang chủ</h4>
