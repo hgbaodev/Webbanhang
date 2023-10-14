@@ -1,3 +1,4 @@
+<!-- author: hgbaodev -->
 # Đồ án môn lập trình web và ứng dụng
 ### Thành viên trong nhóm
 
