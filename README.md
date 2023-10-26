@@ -2,7 +2,7 @@
 # Đồ án môn lập trình web và ứng dụng
 ### Tài khoản Admin
 
-- Username: 0355374322
+- Username: hgbaodev
 - Password: 123456
 ### Hình ảnh giao diện
 ![Alt text](./assets/img/screen.jpeg)
