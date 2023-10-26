@@ -1,12 +1,5 @@
 <!-- author: hgbaodev -->
 # Đồ án môn lập trình web và ứng dụng
-### Thành viên trong nhóm
-
-| STT |    MSSV    | Họ và tên         | Điểm  |
-| :-: | :--------: | :---------------: | :---: | 
-|  1  | 3121410422 | Trần Nhật Sinh    | 10    | 
-|  2  | 3121410069 | Hoàng Gia Bảo     | 10    |
-
 ### Tài khoản Admin
 
 - Username: 0355374322
